@@ -1,0 +1,65 @@
+.addnote-con{
+    position: fixed;
+    top:4rem;
+    background-color:  rgb(230, 109, 109);
+    height:100vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+.note-con{
+    position: fixed;
+    z-index: 100;
+    top:25%;
+    left:20%;
+}
+
+h3{
+    margin: 0px;
+}
+
+.title-div input{
+    position: relative;
+    z-index: 1000;
+    color: black;
+    width:50vw;
+    font-size: 1.2rem;
+    padding: .5rem;
+    border-radius: .3rem;
+   
+}
+
+.desc-div{
+    margin-top: 2rem;
+}
+
+#desc:focus{
+    outline: none;
+}
+#desc{
+    height:30vh;
+    width:50vw;
+    padding: .5rem;
+    font-size: 1.2rem;
+    color: black;
+    border-radius: .3rem;
+}
+.add-btn{
+    position: relative;
+    left:40%;
+    margin-top: 2rem;
+    font-size: 1rem;
+    padding: .5rem;
+    width:10rem;
+    transition: .3s all ease-in-out;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+}
+
+.add-btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    filter:brightness(1.2)
+}

@@ -1,0 +1,138 @@
+.main-con{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(55, 1, 1);
+}
+.page-con{
+    position: absolute;
+    width: 90%;
+    top:30%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    z-index: 10;
+    gap:2rem;
+    left:5%;
+    
+}
+.bg-image{
+    height:100vh;
+    width:100vw;
+    position: fixed;
+    opacity: .6;
+    z-index: 1;
+}
+.login-con{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:20rem;
+    width:25rem;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 2rem;
+}
+.register-con{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:25rem;
+    width:30rem;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 2rem;
+}
+
+.login-main{
+    position: relative;
+  z-index: 20;
+  color:white;
+  
+  opacity: 1;
+ 
+}
+.login-btn{
+
+    font-size: 1rem;
+    padding: .5rem;
+    margin-top: 1.5rem;
+    margin-left: 35%;
+    width:7rem;
+    border-radius: .5em;
+    background-color: rgb(250, 250, 250);
+    color: #000000;
+    border: none;
+    opacity: 1000;
+    /* transform: scale(1);
+    transition: .3s all ease-in-out; */
+}
+
+.login-btn:hover{
+    cursor:cursor;
+}
+.register-btn{
+    transform: scale(1);
+    transition: .3s all ease-in-out;
+}
+.register-btn:hover{
+  
+        background-color: bisque;
+        cursor: pointer;
+        transform: scale(1.2);
+
+}
+
+.name{
+  
+    font-size: 1.2rem;
+    padding: .3rem;
+
+    border-radius: .5rem;
+    background-color: inherit;
+    
+    
+}
+.email{
+    font-size: 1.2rem;
+    padding: .3rem;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background-color: inherit;
+}
+input{
+    border-bottom: 1px solid #FFFFFF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: .5rem;
+    color:#FFFFFF
+}
+input:focus{
+    outline: none;
+}
+
+.password{
+    font-size: 1.2rem;
+    padding: .3rem;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background-color: inherit;
+ 
+}
+
+.text{
+    position: relative;
+    top:40%;
+    text-align: center;
+    
+}
+.text span:hover{
+    color:blue;
+    cursor: pointer;
+}
+
+.agree{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
